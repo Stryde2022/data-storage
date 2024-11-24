@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,4 +119,50 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 1040px) {
+
+
+    body {
+        background-color: rgb(12, 18, 44);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .bg-img-container {
+        background: url(../images/bg-desktop.png) no-repeat bottom;
+        background-size: 100% auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 250px;
+        padding-right: 250px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .first-card {
+        width: 25%;
+        box-sizing: content-box;
+        margin-bottom: 0px;
+        margin-right: 25px;
+    }
+
+    .second-card {
+        width: 40%;
+        box-sizing: content-box;
+        margin-left: 0
+    }
+
+    .white-bg {
+        position: absolute;
+        bottom: 430px;
+        right: 400px;
+        
+    }
+
+    #icons {
+        width: 60%;
+    }
 }
